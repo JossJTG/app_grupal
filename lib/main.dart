@@ -88,8 +88,54 @@ class MyApp extends StatelessWidget {
               // Imagen - Jean
 
 
-              // Botones - Josias
 
+              // Botones - Josias
+              Column(
+                children: [
+                  ElevatedButton(
+                    onPressed: (){}, 
+                      child: Text('Iniciar Sesión',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontFamily: 'Georgia',
+                          fontWeight: FontWeight.bold),
+                      ),
+                        style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.red,
+                        padding: 
+                          EdgeInsets.symmetric(horizontal: 100, vertical: 20),
+                          minimumSize: Size(double.infinity, 50),
+                          shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30),
+                          ),
+                        ),
+                  ),
+                  
+                  SizedBox(
+                    height: 20,
+                  ),
+                  ElevatedButton(
+                    onPressed: (){}, 
+                    child: Text(
+                      'Registrate',
+                        style: TextStyle(
+                        color: Colors.black,
+                        fontFamily: 'Georgia',
+                        fontWeight: FontWeight.bold),
+                    ),
+                  
+                    style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    padding: 
+                        EdgeInsets.symmetric(horizontal: 100, vertical: 20),
+                    minimumSize: Size(double.infinity, 50),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                      ),
+                    ),
+                  ),
+                ],
+              )
 
             ],
           ),
