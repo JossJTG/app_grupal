@@ -8,10 +8,26 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Material App',
       home: Scaffold(
-        body: Column (
-          children: [],
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20.0),         
+          child: Column (
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Texto - Andree
+
+
+              // Imagen - Jean
+
+
+              // Botones - Josias
+
+
+            ],
+          ),
         ),
       ),
     );
