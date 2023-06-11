@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                       height: 0.9,
                       fontSize: 70,
                       fontWeight: FontWeight.w900,
-                      color: Color.fromRGBO(136, 31, 31, 1.0),
+                      color: Colors.red,
                       shadows: [
                         Shadow(
                           color: Color.fromRGBO(90, 102, 125, 1.0),
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
                       height: 0.9,
                       fontSize: 70,
                       fontWeight: FontWeight.w900,
-                      color: Color.fromRGBO(136, 31, 31, 1.0),
+                      color: Colors.red,
                       shadows: [
                         Shadow(
                           color: Color.fromRGBO(90, 102, 125, 1.0),
@@ -59,7 +59,9 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                   ),
-                  
+                  SizedBox(
+                    height: 16,
+                  ),
                   Text('“Un gran poder conlleva una gran responsabilidad”',style: TextStyle(
                       fontStyle: FontStyle.italic,
                       fontSize: 20,
