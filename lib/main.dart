@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                       decoration: TextDecoration.none,
-                      fontFamily: 'Arial',
+                      fontFamily: 'Georgia',
                       letterSpacing: 4,
                       ),
                     ),
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                       decoration: TextDecoration.none,
-                      fontFamily: 'Arial',
+                      fontFamily: 'Geoirgia',
                       letterSpacing: 4,
                       ),
                     ),
@@ -88,8 +88,15 @@ class MyApp extends StatelessWidget {
               ),
 
               // Imagen - Jean
-
-
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Center(
+                    child: Image.asset('assets/TASM.gif',
+                    ),
+                  ),                  
+                ],
+              ),
 
               // Botones - Josias
               Column(
